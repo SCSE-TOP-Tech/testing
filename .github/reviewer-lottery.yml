@@ -1,6 +1,6 @@
 groups:
   - name: devs
-    reviewers: 2
+    reviewers: 3
     internal_reviewers: 0
     usernames:
       - scsetoptech
