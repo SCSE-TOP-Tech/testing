@@ -12,7 +12,8 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       # Randomly selects reviewer(s) for pull request
       - uses: uesteibar/reviewer-lottery@v2
         with:
